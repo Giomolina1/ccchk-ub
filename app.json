@@ -1,0 +1,30 @@
+{
+  "env": {
+    "API_ID": {
+      "description": "Get Api id :-  https://my.telegram.org/auth",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get Api hash from :-  https://my.telegram.org/auth",
+      "required": true,
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "Gen your telethon string session",
+      "required": true,
+      "value": ""
+    },
+    "DUMP_ID": {
+      "description": "Channel_id where u want to send ccs",
+      "required": true,
+      "value": ""
+    }
+  },
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
